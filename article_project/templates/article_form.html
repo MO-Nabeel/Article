@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}  {% endblock %}
+
+
+{% block content %}
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="row g-3">
+  <div class="col-md-12" >
+    <input type="text" class="form-control" placeholder="Title" name="title">
+  </div>
+  <div class="col-md-12">
+    <input type="text" class="form-control" placeholder="Content" name="content">
+  </div>
+  <div class="col-md-12">
+    <input type="text" class="form-control" placeholder="Auther" name="author">
+  </div>
+    <button type="submit">submit</button>
+</div>
+</form>
+
+{% endblock %}
