@@ -37,7 +37,9 @@ def login(request):
         if request.method == "POST":
           username = request.POST['username']
           password1 = request.POST['password_1']
-          if auth.authenticate(username=username,password=password1):
+          user = auth.authenticate(username=username,password=password1)
+          if user is not None:
+              auth.login(request,user)
               return redirect('article_list')
           else:
               messages.info(request,"wrong password or username")

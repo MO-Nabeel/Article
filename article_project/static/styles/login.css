@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/wp3124740-article-wallpapers.jpg);
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 10px 20px #000;
+
+}
+.input{
+    width:400px ;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color:white;
+    box-shadow:2px 2px 5px black;
+    text-align: center;
+}
+.input::placeholder{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.button{
+    width:400px ;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: wheat;
+}
+.button:hover{
+    background-color: #bdbd3f;
+}
+.link{
+    width:200px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    margin-left: 175px;
+}
+.msg{
+    color: red;
+    font-size: 15px;
+}
