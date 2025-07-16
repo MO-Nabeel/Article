@@ -13,6 +13,7 @@
         <input type="password" placeholder="Enter your Password" name="password_1"><br>
         <input type="submit">
         </form>
+        <a href="{% url 'reg' %}">Register</a>
         {% for msg in messages %}
         <h3>{{msg}}</h3>
         {% endfor %}

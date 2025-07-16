@@ -18,6 +18,7 @@
         <input type="password" placeholder="Confirm password" name="password_2"><br>
         <input type="submit">
        </form>
+        <a href="{% url 'login' %}">Login</a>
         {% for msg in messages %}
          <h3>{{msg}}</h3>
         {% endfor %}
