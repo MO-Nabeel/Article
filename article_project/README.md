@@ -47,8 +47,35 @@ This is a Django-based web application for managing articles and user registrati
 - Custom forms and templates
 - Static file management
 
-## Notes
-- The `db.sqlite3` file and other sensitive files are excluded from version control via `.gitignore`.
-- For production, configure environment variables and use a production-ready database.
+## Requirements
+
+- Python 3.8+
+- Django 4.x
+- Other dependencies listed in `requirements.txt`
+
+## Usage
+
+- To add, update, or delete articles, use the navigation links in the app after logging in.
+- User registration and login are available from the main page.
+- Static files (CSS, images) are managed in the `static/` directory.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- [Django Documentation](https://docs.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ---

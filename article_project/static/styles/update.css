@@ -1,0 +1,40 @@
+.update_wrapper{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update_button{
+    width:400px ;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: wheat;
+}
+
+.update_form input[type="text"]{
+  width:400px ;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  text-align: center;
+}
+.update_form textarea{
+   width:400px ;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  text-align: center;
+}
+.update_form label{
+    display: none;
+}
+.update_head{
+    text-align: center;
+    margin-bottom: 20px;
+}

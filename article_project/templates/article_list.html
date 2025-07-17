@@ -9,9 +9,19 @@
     <p class="card-text">{{article.content}}</p>
     <p class="fw-bold">{{article.author}}</p>
     <p>{{article.created_at}}</p>
-    <a href="{% url 'article_detail' article.id %}">
-    <button class="button">show</button>
-    </a>
+
+     <div class='buttons'>
+       <a href="{% url 'article_detail' article.id %}">
+       <button class="button">show</button>
+       </a>
+       <a href="{% url 'update' article.id %}">
+       <button class="button">update</button>
+       </a>
+       <a href="{% url 'delete' article.id %}">
+       <button class="button">delete</button>
+       </a>
+     </div>
+
   </div>
   </div>
 
