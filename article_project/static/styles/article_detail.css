@@ -1,16 +1,18 @@
-.wrapper{
+.wrapper_detail{
     width: 18rem;
        margin-left:100px;
        border-radius: 25px;
        box-shadow: 10px 10px 20px #000;
        background:linear-gradient(to left ,darkgray,white);
 }
-.title{
-    color: darkblue;
+.title_detail{
+     color: darkblue;
     text-align: center;
 }
-.button{
-    width: 130px;
+
+
+.button_detail{
+     width: 130px;
     height: 48px;
     margin-left: 39px;
     background-color:darkcyan;
@@ -18,7 +20,14 @@
     outline: none;
     border-radius: 10px;
 }
-.button:hover{
+.button_detail:hover{
     background-color: rgb(0, 155, 175);
     font-size: 18px;
+}
+.mainbox_detail{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,22 +1,23 @@
 {% extends 'base.html' %}
-{% block title %}  {% endblock %}
-
 
 {% block content %}
-<form method="post" enctype="multipart/form-data">
+ <div class="mainbox">
+  <div class='box'> 
+    <form method="post" enctype="multipart/form-data">
   {% csrf_token %}
-  <div class="row g-3">
-  <div class="col-md-12" >
-    <input type="text" class="form-control" placeholder="Title" name="title">
+  <div >
+  <div  >
+    <input type="text"  placeholder="Title" name="title" class='input'>
   </div>
   <div class="col-md-12">
-    <input type="text" class="form-control" placeholder="Content" name="content">
+    <input type="text" placeholder="Content" name="content" class='input'>
   </div>
   <div class="col-md-12">
-    <input type="text" class="form-control" placeholder="Auther" name="author">
+    <input type="text" placeholder="Auther" name="author" class='input'>
   </div>
-    <button type="submit">submit</button>
+    <button type="submit" class='button_form'>submit</button>
 </div>
 </form>
-
+  </div>
+ </div>
 {% endblock %}
